@@ -87,6 +87,7 @@ plt.ylabel('Acceleration (m/s^2)')
 plt.grid(True)
 plt.legend()
 
+
 # 绘制运动方向趋势图
 plt.subplot(2, 1, 2)
 plt.plot(directions, label='Direction', color='orange')
